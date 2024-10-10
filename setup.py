@@ -59,8 +59,8 @@ def parallelCCompile(self,
   return objects
 
 
-import distutils.ccompiler
-distutils.ccompiler.CCompiler.compile = parallelCCompile
+# import distutils.ccompiler
+# distutils.ccompiler.CCompiler.compile = parallelCCompile
 
 #see http://stackoverflow.com/a/8719066/295157
 import os
