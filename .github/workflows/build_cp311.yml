@@ -1,4 +1,4 @@
-name: Build
+name: Build py3.11
 
 on: workflow_dispatch
 
